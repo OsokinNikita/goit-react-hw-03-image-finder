@@ -14,7 +14,13 @@ export const Layout = styled.header`
   padding-top: 12px;
   padding-bottom: 12px;
   color: #fff;
-  background-color: rgb(4, 4, 4);
+  background: rgb(2, 245, 50);
+  background: linear-gradient(
+    202deg,
+    rgba(2, 245, 50, 1) 0%,
+    rgba(0, 198, 255, 1) 50%,
+    rgba(255, 0, 228, 1) 100%
+  );
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 `;
@@ -25,13 +31,13 @@ export const SearchForm = styled.form`
   width: 100%;
   max-width: 600px;
   background-color: #fff;
-  border-radius: 15px;
+  border-radius: 50px;
   overflow: hidden;
 `;
 
 export const SearchFormBtn = styled.button`
   background-color: rgb(4, 4, 4);
-  border-radius: 15px;
+  border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
