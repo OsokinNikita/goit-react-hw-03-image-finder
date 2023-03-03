@@ -13,7 +13,7 @@ export const Searchbar = ({ onSubmit, inputValue, onChange }) => {
     <Layout>
       <SearchForm onSubmit={onSubmit}>
         <SearchFormBtn type="submit">
-          <BiSearch size="24" color="#03e9f4" />
+          <BiSearch size="24" color="#ec0ee6" />
           <SearchFormBtnLabel>Search</SearchFormBtnLabel>
         </SearchFormBtn>
 

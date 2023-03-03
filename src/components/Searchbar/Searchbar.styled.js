@@ -41,8 +41,8 @@ export const SearchFormBtn = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 48px;
-  height: 48px;
+  width: 50px;
+  height: 50px;
   border: 0;
   opacity: 0.6;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -51,6 +51,7 @@ export const SearchFormBtn = styled.button`
 
   :hover {
     opacity: 1;
+    background-color: #03e9f4;
   }
 `;
 
